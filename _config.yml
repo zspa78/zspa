@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+title: Zita Spa
+description: A site about handmade soap designs
+
+theme: jekyll-theme-kagami
+show_downloads: false
