@@ -8,4 +8,4 @@ imgCollection:
     content: For healthy skin and a happy mind...
 ---
 # Zita Spa
-{{ site.description }}
+<img src="assets/img/gallery/skull6.jpg" class="img-fluid" alt="handmade soap of hearts and skulls">
