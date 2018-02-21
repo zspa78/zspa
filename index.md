@@ -1,5 +1,5 @@
 ---
-layout: igal
+layout: default
 color: black
 imgCollection:
   - id: skull
