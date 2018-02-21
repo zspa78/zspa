@@ -1,6 +1,7 @@
 ---
 layout: default
-color: black
+color: white
+bgColor: gray
 imgCollection:
   - id: skull
     alt: Rose Collection
