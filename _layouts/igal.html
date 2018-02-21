@@ -9,7 +9,7 @@ layout: default
 
         <div class="row">
           <div class="card">
-            <img data-src="/zspa/assets/img/gallery/rose1.jpg" alt="Card image cap">
+            <img data-src="{{ '/assets/img/gallery/rose1.jpg?v=' | append: site.github.build_revision | relative_url }}" alt="Card image cap">
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card">
