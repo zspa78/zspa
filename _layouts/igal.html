@@ -4,15 +4,53 @@ layout: default
 <div class="album text-muted">
   <div class="container">
     <div class="row">
-      {% assign url = site.imgdir %}
-      {% assign set = page.imgCollection %}       
-      {% for item in (1..set.qty) %}         
-      <div class="card">
-        <img data-src="{{ item | prepend: set.id }}" alt="{{ item.alt }}">
-          <p class="card-text">{{ item.content }}.</p>
+    <div class="album text-muted">
+      <div class="container">
+
+        <div class="row">
+          <div class="card">
+            <img data-src="assets/img/gallery/rose1.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose2.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose3.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="assets/img/gallery/rose4.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose4.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose5.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+            <img data-src="assets/img/gallery/rose6.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose8.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+            <img data-src="assets/img/gallery/rose7.jpg" alt="Card image cap">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
         </div>
-      {% endfor %}
+
       </div>
+    </div>
+
       <section class="row">
         {{ content }}
       </section>
