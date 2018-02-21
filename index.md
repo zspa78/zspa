@@ -1,6 +1,6 @@
 ---
 layout: igal
-color: blue
+color: indigo
 imgCollection:
   - id: rose
     alt: Rose Collection
