@@ -1,8 +1,8 @@
 ---
 layout: igal
-color: indigo
+color: black
 imgCollection:
-  - id: rose
+  - id: skull
     alt: Rose Collection
     qty: 9
     content: For healthy skin and a happy mind...
